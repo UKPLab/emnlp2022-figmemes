@@ -7,7 +7,7 @@ This repositopry contains:
 
 
 ## Dataset Request Form
-To request the dataset, please fill out the following [form](https://forms.gle/eHkt2dHUUe22tkvq8).
+To request the dataset (labels and extracted texts), please fill out the following [form](https://forms.gle/eHkt2dHUUe22tkvq8).
 
 After submitting the required info, you will see a link to a folder containing the datasets in a zip format and the password to uncompress the files.
 
