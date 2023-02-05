@@ -1,12 +1,14 @@
 # FigMemes: A Dataset for Figurative Language Identification in Politically-Opinionated Memes
 
-This repositopry contains:
+This repository contains:
 
 1. Instructions on how to get the OCR extraction (text) and labels through a request form.
 2. Dataset download script and baselines
 
 
 ## Dataset Request Form
+**Warning**: The dataset contains memes that may be offensive to readers. Please see the `Dataset Statement` section from our paper [here](https://aclanthology.org/2022.emnlp-main.476.pdf) to understand the risks before you proceed! 
+
 To request the dataset (labels and extracted texts), please fill out the following [form](https://forms.gle/eHkt2dHUUe22tkvq8).
 
 After submitting the required info, you will see a link to a folder containing the datasets in a zip format and the password to uncompress the files.
@@ -159,16 +161,21 @@ python -u run_classification_img_twostage.py \
 
 ## Citation
 If you find this repository helpful, feel free to cite the following publication:
+
 ```
-@inproceedings{liu-etal-2022-figmemes,  
-	 title = "{F}ig{M}emes: {A} {D}ataset for {F}igurative {L}anguage {I}dentification in {P}olitically-{O}pinionated {M}emes", 
-	 author = "Liu, Chen and Geigle, Gregor and Krebs, Robin and Gurevych, Iryna", 
-	 booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing", 
-	 month = dec, 
-	 year = "2022", 
-	 address = "Abu Dhabi", 
-	 publisher = "Association for Computational Linguistics", 
-	 pages = "(to appear)"
- }  
+@inproceedings{liu-etal-2022-figmemes,
+    title = "{F}ig{M}emes: A Dataset for Figurative Language Identification in Politically-Opinionated Memes",
+    author = "Liu, Chen  and
+      Geigle, Gregor  and
+      Krebs, Robin  and
+      Gurevych, Iryna",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.476",
+    pages = "7069--7086",
+}
 
 ```
