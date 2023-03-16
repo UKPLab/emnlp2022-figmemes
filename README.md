@@ -5,9 +5,13 @@ This repository contains:
 1. Instructions on how to get the OCR extraction (text) and labels through a request form.
 2. Dataset download script and baselines
 
+# Warning
+**Please make sure you understand the data source [here](https://en.wikipedia.org/wiki//pol/)**
+
+**The dataset contains memes that may be offensive to readers. Please see the `Dataset Statement` section from our paper [here](https://aclanthology.org/2022.emnlp-main.476.pdf) to understand the risks before you proceed!**
+
 
 ## Dataset Request Form
-**Warning**: The dataset contains memes that may be offensive to readers. Please see the `Dataset Statement` section from our paper [here](https://aclanthology.org/2022.emnlp-main.476.pdf) to understand the risks before you proceed! 
 
 To request the dataset (labels and extracted texts), please fill out the following [form](https://forms.gle/eHkt2dHUUe22tkvq8).
 
